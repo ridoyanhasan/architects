@@ -39,7 +39,7 @@ nav {
 
   .body-container{
     text-align: center;
-    
+    width: 100%;
 
   }
   .body-title{
@@ -66,7 +66,6 @@ margin-bottom: 32px;
 margin-top: 50px;
   }
   .body-image{
-     max-width:1000px;
 max-height:500px;
 margin: auto;
 margin-bottom: 25px;
@@ -112,7 +111,7 @@ color: #FFFFFF;
 /* end-secondbodypart */
 /* start experience body part */
 .experience-container{
-   max-width: 1000px;
+   max-width:70%;
    max-height: 700px;
   font-family: 'Work Sans';
   /* margin: 130px 240px; */
@@ -264,38 +263,47 @@ color: #727272;
 /* end sponsor section */
 /* team member section start */
 .top-players{
-    margin-bottom: 30px;
-    padding-left: 240px;
+    /* margin-bottom: 30px;
+    padding-left: 240px; */
+    width: 80%;
     font-family: 'Work Sans';
     border: 2px solid red;
     box-shadow: 0px 6px 50px rgba(219, 20, 20, 0.527);
     border: none;
+    margin: auto;
+    padding-left: 20%;
+    margin-top: 100px;
 }
 .section-title{
 font-size: 24px;
 color: #e007c3;
-margin-top:70px;
-padding-top: 30px;
-padding-left: 30%;
+margin: auto;
+margin-left: 300px;
+padding-top: 30PX;
+
 }
 .image-x{
     width: 60px;
     height: 60px;
     margin-top: 20px;
     
+    
 }
 .players{
     display: flex;
     gap: 50px;  
+    
 }
 /* end team member section */
 /* start footer section */
 .footer{
-max-width: 800px;
+max-width:60%;
 height: 80px;
  background: #f0c99b;
 border-radius: 8px;
-margin: 130px 0px 150px 250px;
+margin: auto;
+margin-bottom: 150px;
+margin-top: 100px;
 }
 .footer-p{
     color: #424242;
