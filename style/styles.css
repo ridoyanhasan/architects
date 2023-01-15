@@ -218,6 +218,7 @@ border-radius: 8px;
 }
 .s-image{
     align-items: center;
+    padding-top: 20px;
 }
 .s-title{
   font-weight: 600;
@@ -261,6 +262,33 @@ color: #727272;
   justify-content: center;
 }
 /* end sponsor section */
+/* team member section start */
+.top-players{
+    margin-bottom: 30px;
+    padding-left: 240px;
+    font-family: 'Work Sans';
+    border: 2px solid red;
+    box-shadow: 0px 6px 50px rgba(219, 20, 20, 0.527);
+    border: none;
+}
+.section-title{
+font-size: 24px;
+color: #e007c3;
+margin-top:70px;
+padding-top: 30px;
+padding-left: 30%;
+}
+.image-x{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    
+}
+.players{
+    display: flex;
+    gap: 50px;  
+}
+/* end team member section */
 /* start footer section */
 .footer{
 max-width: 800px;
@@ -276,6 +304,7 @@ font-size: 15px;
 margin: auto;
 }
 /* end footer section */
+
 /* --------------------------------- */
 /* responsive mobile section */
 @media screen and (max-width:768px){
