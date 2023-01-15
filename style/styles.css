@@ -6,8 +6,7 @@
   width: 100%;
     background: rgba(255, 144, 14, 0.1);
     font-family: 'Work Sans', sans-serif;
-    height: 1322px;
-    
+    height: 1322px;  
 }
 
 .menubar{
@@ -27,8 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
+   
   }
   nav > ul {
     display: flex;
@@ -41,6 +39,8 @@ nav {
 
   .body-container{
     text-align: center;
+    
+
   }
   .body-title{
     font-weight: 700;
@@ -65,8 +65,8 @@ color: #FFFFFF;
   }
   .body-image{
     width: 1440px;
-height: 100px;
-margin: 50px, 240px;
+height: 700px;
+margin: auto;
   }
   /* endbodypart */
 
@@ -76,16 +76,12 @@ display: flex;
 gap: 75px;
 text-align: left;
   }
-  .image{
-    height: 100%;
-    width: 100%
-  }
+
 .second-bodyimage{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 24px;
-    margin-left: 301px;
-    margin-top: 85px;
+    display: flex;
+    gap: 24px;
+     margin-left: 301px;
+    margin-top: 85px; 
 }
 .secondbody-title{
      margin-top: 302px;
